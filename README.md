@@ -79,4 +79,6 @@ ADD . /myapp
 ## ⑦docker compose upでアプリを起動する
 `$ docker compose up`
 
-## ⑧`http://localhost:3000`にアクセスしてシステムを動かしてみる
+## ⑧別タブで、`docker-compose run web rake db:create db:migrate`でDBを作成してマイグレーションする
+
+## ⑨`http://localhost:3000`にアクセスしてシステムを動かしてみる
