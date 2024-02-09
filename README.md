@@ -24,12 +24,14 @@ origin	git@github.com:melons23/rails-docker.git (push)
 
 ## ④dockerファイル編集用に`docker`ブランチを作成・ブランチ切り替え
 `$ git checkout -b docker`
+
 `$ git branch`でdockerがメインブランチになっていることが分かります。
 
 ## ⑤Dockerに必要なファイルを作成する
 今回はGemfile,Gemfile.lockはすでにあるので、Dockerfileとcompose.yamlを作成します。
 
 ディレクトリ移動をして、touchコマンドでファイルを作成して編集をします。
+
 ・ Dockerfile
   ```
 FROM ruby:3.2.2
